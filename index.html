@@ -1,111 +1,798 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Toni Menzel">
-    <meta name="description" content="Make the right thing simple and the wrong thing incredibly hard. Convenience as a feature.">
-    <meta name="keywords" content="Developer, Programming, Software, Sourcecode, Quality, Digital, OSGi, CLM, Workforce, HR, Human Resources, Testing, Productivity, Java,Maven, Gradle, Refactoring, Migration">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <!-- Facebook -->
-    <meta content='' property='og:image'>
-    <meta content='' property='og:title'>
-    <meta content='' property='og:description'>
-    <meta content='Toni Menzel' name='og:site_name'>
-    <!-- Twitter -->
-    <meta content='photo' name='twitter:card'>
-    <meta content='' name='twitter:title'>
-    <meta content='' name='twitter:image:src'>
-    <meta content='@tonit' name='twitter:site'>
-    <meta content='tonimenzel.com' name='twitter:domain'>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>@tonit | Toni Menzel - Growing Developer Culture</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="icon" href="i/favicon.png" type="image/x-icon">
+		<!-- Google Fonts -->
+				<link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
+				<!-- Bootstrap 4.3.1 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- Startup 3 CSS (Styles for all blocks) -->
+					<link href="css/style.css" rel="stylesheet" />
+				<!-- jQuery 3.3.1 -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+			</head> 
+	<body>
+			<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+	<!-- rebaze -->
+<symbol id="rebaze_logo" viewBox="0 0 400 400"><path fill="#FFFFFF" d="M208,42.4v61.9c0,5.2,2.8,9.9,7.2,12.5l51.6,29.8c4.5,2.6,7.2,7.3,7.2,12.5v68.8c0,5.2-2.8,9.9-7.2,12.5
+	l-59.6,34.4c-4.5,2.6-10,2.6-14.4,0l-55-31.8c-4.5-2.6-10.2-2.6-14.7,0.1l-52.5,31.6c-9.4,5.7-9.3,19.4,0.2,24.9l122,70.4
+	c4.5,2.6,10,2.6,14.4,0l142.1-82c4.5-2.6,7.2-7.3,7.2-12.5v-164c0-5.2-2.8-9.9-7.2-12.5L229.6,29.9C220,24.4,208,31.3,208,42.4z"/>
+  <path fill="#FFFFFF" d="M133.2,146.7l51.6-29.8c4.5-2.6,7.2-7.3,7.2-12.5V42.4c0-11.1-12-18.1-21.6-12.5L50.7,99
+	c-4.5,2.6-7.2,7.3-7.2,12.5v135.4c0,11.2,12.3,18.2,21.9,12.4L119,227c4.3-2.6,7-7.3,7-12.4v-55.5C126,154,128.8,149.2,133.2,146.7
+	z"/></symbol>
 
-    <title>Toni Menzel | Developer Ergonomics</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-
-      <header>
-        <h1>Toni Menzel</h1>
-        <p>Developer Ergonomics Analyst<BR/>From Hannover, Germany</p>
-        
-		<img src="assets/tonit3.png">
-
-      <a href="https://twitter.com/tonit?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tonit</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <p>
-          <a href="mailto:toni.menzel@rebaze.com">contact</a> |
-          <a href="https://medium.com/rebaze">blog</a> |
-        <a href="http://www.rebaze.de">rebaze gmbh</a>
-
-        <h3>What clients say</h3>
-  <blockquote>
-  <p> "Expert, High Integrity, Creative. Menzel is an expert in the field of OSGi, and I enjoyed working with him. His knowledge and willingness to share his experience with others makes him a great guy to have in your team."</p>
-	<p>"Menzel has a deep technical knowledge in the area of OSGI and Java. His test skills are above average. He is a fine person to work with, clear in communication. He is flexible and a very good team player."</p>
-  </blockquote>
-  <div>
-    <p><small>by <a href="http://www.rebaze.com">rebaze GmbH</a> &mdash; 2019 | <a href="https://www.rebaze.com/privacy.html">data privacy</a></small></p>
-  </div>
-    </header>
-        <section>
-        <h1>Developer Ergonomics</h1>
-       
-        <h3>Problem 1: Developers are puzzlers</h3>  
-        <p>
-            Software Developers are often not well attached to business goals. How do you find the balance between creative thinking and organizational governance?
-        </p>
-        <h3>Problem 2: Undifferentiated heavy-lifting</h3>  
-
-        <p>Software Developers often spend a large amount of their time on something called undifferentiated heavy-lifting. Are you aware? How can you improve?</p>
-       
-        <h3>Problem 3: Talent Market</h3>  
-
-        <p>Why is top talent working not working for your company?</p>
-
-        <h1>Convenience &amp; Governance</h1>
-
-       <h3>Make the right things simple + Make the wrong things incredibly hard</h3>
-       <p>
-         Decide what is right and wrong in your platform design and project. <BR/>
-         Build convenience into anything that supports the right path, and make fcking up almost impossible.
-       </p>
-
-        <p>
-          Developer Ergonomics is about all-day mechanics to increase developer productivity, improve software quality and providing a good work environment to attract and retain top talent.
-        </p>
-        <p>
-          Developer Ergonomics is about providing the right amount of creative space and meaningful borders and railroads.
-          Practically this can mean creating custom development kits (SDKs) that are suited for the job at hand. 
-        </p>
-        <h3>Developer Ergonomics is a key differentiator in digital transformation</h3>        
-        <p>
-           Developer Ergonomics is a new view at how software is invented, developed and nurtured. Read more on <a href="https://medium.com/rebaze/">The Rebaze Way</a>.
-        </p>
-        <h1>Software Delivery Machine</h1>
-        <p>
-          While Developer Ergonomics tell you why you have to do things differently, a new software category has emerged that productices many aspects under the new term Software Delivery Machines - or SDM for short.
-        </p><p>
-          The SaaS offering from <a href="http://atomist.com">Atomist</a> is one the early implementations of the SDM paradigm. Read more on <a href="https://the-composition.com/why-you-need-a-software-delivery-machine-85e8399cdfc0">Why you need a Software Devlivery Machine</a> by Rod Johnson.
-       </p>
-        
-   
-	
- 
-  <h3>Selected Clients</h3>
-  <p>
-  <a href="http://concardis.de">Concardis</a> | 
-  <a href="http://deutschebank.de">Deutsche Bank</a> | 
-  <a href="http://dzbank.de">DZ Bank</a> | 
-  <a href="http://sma.de">SMA Solar Technology</a> | 
-  <a href="http://morganstanley.com">Morgan Stanley</a>
-  </p>
+	<symbol id="rebaze_logo_black" viewBox="0 0 400 400"><path fill="#191919" d="M208,42.4v61.9c0,5.2,2.8,9.9,7.2,12.5l51.6,29.8c4.5,2.6,7.2,7.3,7.2,12.5v68.8c0,5.2-2.8,9.9-7.2,12.5
+		l-59.6,34.4c-4.5,2.6-10,2.6-14.4,0l-55-31.8c-4.5-2.6-10.2-2.6-14.7,0.1l-52.5,31.6c-9.4,5.7-9.3,19.4,0.2,24.9l122,70.4
+		c4.5,2.6,10,2.6,14.4,0l142.1-82c4.5-2.6,7.2-7.3,7.2-12.5v-164c0-5.2-2.8-9.9-7.2-12.5L229.6,29.9C220,24.4,208,31.3,208,42.4z"/>
+	  <path fill="#191919" d="M133.2,146.7l51.6-29.8c4.5-2.6,7.2-7.3,7.2-12.5V42.4c0-11.1-12-18.1-21.6-12.5L50.7,99
+		c-4.5,2.6-7.2,7.3-7.2,12.5v135.4c0,11.2,12.3,18.2,21.9,12.4L119,227c4.3-2.6,7-7.3,7-12.4v-55.5C126,154,128.8,149.2,133.2,146.7
+		z"/></symbol>
+	  
+  <symbol id="rebaze" viewBox="0 0 1000 500">
+	  <g>
+		  <g>
+			<path fill="#FFFFFF" d="M188.2,144.8v41.4c0,3.4,1.8,6.6,4.8,8.3l34.4,19.9c3,1.7,4.8,4.9,4.8,8.3v45.9c0,3.4-1.8,6.6-4.8,8.3
+			  l-39.8,23c-3,1.7-6.7,1.7-9.6,0l-36.7-21.2c-3-1.8-6.8-1.7-9.8,0.1l-35.1,21.1c-6.3,3.8-6.2,12.9,0.1,16.6l81.5,47
+			  c3,1.7,6.7,1.7,9.6,0l94.9-54.8c3-1.7,4.8-4.9,4.8-8.3V190.9c0-3.4-1.8-6.6-4.8-8.3l-79.9-46.1
+			  C196.2,132.7,188.2,137.4,188.2,144.8z"/>
+			<path fill="#FFFFFF" d="M138.3,214.4l34.4-19.9c3-1.7,4.8-4.9,4.8-8.3v-41.4c0-7.4-8-12.1-14.5-8.3l-79.9,46.1
+			  c-3,1.7-4.8,4.9-4.8,8.3v90.4c0,7.5,8.2,12.1,14.6,8.3l35.8-21.5c2.9-1.7,4.7-4.9,4.7-8.3v-37.1
+			  C133.5,219.3,135.3,216.1,138.3,214.4z"/>
+		  </g>
+		  <g>
+			<g>
+			  <g>
+				<g>
+				  <g>
+					<g>
+					  <path fill="#FFFFFF" d="M380.1,213c2,0,3.8,0.2,5.5,0.6l-1.5,11.6c-2.8-0.3-5-0.4-7.4-0.3c-8.5,0.2-15.4,3.8-28.1,14.4v57.5
+						h-13.9v-81.1h11.2l1,13.9C361.2,217.6,369.8,213,380.1,213L380.1,213z"/>
+					  <path fill="#FFFFFF" d="M479.2,222.7c5.4,6.5,7.2,16.6,5.6,31.2l-0.4,4.4l-55.2,0c0.3,24,5.4,30.8,23.5,30.8
+						c12.1,0,18.4-1.6,25.8-3.6l1.9,9.9c-6.8,2.2-14.7,4.3-27.6,4.3c-29.9,0-38.1-11.5-38.1-45.1c0-31,11.7-41.5,38-41.5
+						C464.5,213,473.6,215.9,479.2,222.7z M429.2,250.6h44.1c0.7-9.7-0.7-16.4-3.7-20.5c-3.4-4.7-9-6.6-16.9-6.6
+						C437,223.5,429.9,229.5,429.2,250.6z"/>
+					  <path fill="#FFFFFF" d="M538.8,226.5c11.4-10,18.6-13.5,27.5-13.5c25.6,0,32.6,11.5,32.6,45.1c0,31.3-12.4,41.5-35,41.5
+						c-11.7,0-23.8-2.4-39-6.5V183.3h13.9V226.5z M538.8,237.8v46.9c9.9,2.7,16.5,3.7,23.7,3.7c15.6,0,22.3-7.3,22.3-31
+						c0-26.2-4.6-33.9-22.3-33.9C555.8,223.4,550.6,226.2,538.8,237.8z"/>
+					  <path fill="#FFFFFF" d="M709,220.2l0,76.7h-11.2l-1-13.3c-13.8,13.1-19.9,16-29.4,16c-24.4,0-31.2-12-31.1-45.1
+						c0-31,10.4-41.5,33.7-41.5C682.4,213,694.3,215.5,709,220.2z M650.4,254.2c0,25.7,4.5,33.7,21.8,33.7
+						c6.7,0,11.3-2.2,22.9-13.7v-46.4c-8.4-2.9-15.3-4.4-22.7-4.4C656.8,223.4,650.4,230.7,650.4,254.2z"/>
+					  <path fill="#FFFFFF" d="M762.8,286.7h51.8v10.1h-67.8v-11.1l50.3-59.8h-46.9v-10.2h62.9v11.1L762.8,286.7z"/>
+					  <path fill="#FFFFFF" d="M915.5,222.7c5.4,6.5,7.2,16.6,5.6,31.2l-0.4,4.4l-55.2,0c0.3,24,5.4,30.8,23.5,30.8
+						c12.1,0,18.4-1.6,25.8-3.6l1.9,9.9c-6.8,2.2-14.7,4.3-27.6,4.3c-29.9,0-38.1-11.5-38.1-45.1c0-31,11.7-41.5,38-41.5
+						C900.7,213,909.9,215.9,915.5,222.7z M865.4,250.6h44.1c0.7-9.7-0.7-16.4-3.7-20.5c-3.4-4.7-9-6.6-16.9-6.6
+						C873.2,223.5,866.1,229.5,865.4,250.6z"/>
+					</g>
+				  </g>
+				</g>
+			  </g>
+			</g>
+		  </g>
+		</g>
+	</symbol>
   
+	<symbol id="vrebaze" viewBox="0 0 800 800">
+		<g>
+			<g>
+			  <g>
+				<path fill="#FFFFFF" d="M406.5,167.4v50.1c0,4.2,2.2,8,5.8,10.1l41.7,24.1c3.6,2.1,5.8,5.9,5.8,10.1v55.7c0,4.2-2.2,8-5.8,10.1
+				  l-48.2,27.8c-3.6,2.1-8.1,2.1-11.7,0l-44.5-25.7c-3.7-2.1-8.2-2.1-11.9,0.1l-42.5,25.6c-7.6,4.6-7.5,15.7,0.2,20.1l98.7,57
+				  c3.6,2.1,8.1,2.1,11.7,0l115-66.4c3.6-2.1,5.8-5.9,5.8-10.1V223.3c0-4.2-2.2-8-5.8-10.1L424,157.2
+				  C416.2,152.7,406.5,158.4,406.5,167.4z"/>
+				<path fill="#FFFFFF" d="M346,251.7l41.7-24.1c3.6-2.1,5.8-5.9,5.8-10.1v-50.1c0-9-9.7-14.6-17.5-10.1l-96.8,55.9
+				  c-3.6,2.1-5.8,5.9-5.8,10.1v109.6c0,9.1,9.9,14.7,17.7,10l43.4-26.1c3.5-2.1,5.7-5.9,5.7-10v-44.9
+				  C340.1,257.6,342.3,253.8,346,251.7z"/>
+			  </g>
+			  <g>
+				<g>
+				  <g>
+					<g>
+					  <g>
+						<path fill="#FFFFFF" d="M150.3,492.3c2,0,3.8,0.2,5.5,0.6l-1.5,11.7c-2.8-0.3-5-0.4-7.5-0.3c-8.5,0.2-15.5,3.8-28.3,14.5
+						  v57.9h-14v-81.6h11.3l1,14C131.2,496.9,139.9,492.3,150.3,492.3L150.3,492.3z"/>
+						<path fill="#FFFFFF" d="M250.1,502.1c5.4,6.6,7.2,16.7,5.7,31.4l-0.4,4.4l-55.6,0c0.3,24.2,5.4,31,23.7,31
+						  c12.2,0,18.5-1.6,26-3.7l1.9,9.9c-6.8,2.2-14.8,4.3-27.8,4.3c-30.1,0-38.3-11.6-38.3-45.4c0-31.3,11.8-41.8,38.3-41.8
+						  C235.3,492.3,244.4,495.2,250.1,502.1z M199.7,530.2h44.4c0.7-9.8-0.7-16.5-3.7-20.6c-3.4-4.7-9.1-6.7-17-6.7
+						  C207.5,502.9,200.4,509,199.7,530.2z"/>
+						<path fill="#FFFFFF" d="M310.1,505.9c11.4-10.1,18.7-13.5,27.7-13.5c25.8,0,32.8,11.6,32.8,45.4c0,31.5-12.5,41.8-35.3,41.8
+						  c-11.8,0-24-2.4-39.3-6.5V462.4h14V505.9z M310.1,517.2v47.2c10,2.7,16.6,3.7,23.9,3.7c15.7,0,22.4-7.3,22.4-31.2
+						  c0-26.4-4.7-34.2-22.4-34.2C327.1,502.8,322,505.6,310.1,517.2z"/>
+						<path fill="#FFFFFF" d="M481.5,499.5l0,77.2h-11.3l-1-13.4c-13.9,13.2-20.1,16.1-29.6,16.1c-24.6,0-31.4-12.1-31.3-45.4
+						  c0-31.2,10.5-41.8,33.9-41.8C454.6,492.3,466.6,494.8,481.5,499.5z M422.4,533.8c0,25.9,4.5,33.9,22,33.9
+						  c6.8,0,11.4-2.3,23.1-13.7v-46.8c-8.5-2.9-15.4-4.4-22.8-4.4C428.8,502.8,422.4,510.2,422.4,533.8z"/>
+						<path fill="#FFFFFF" d="M535.6,566.5h52.2v10.2h-68.3v-11.2l50.6-60.2h-47.3v-10.2h63.4v11.2L535.6,566.5z"/>
+						<path fill="#FFFFFF" d="M689.3,502.1c5.4,6.6,7.2,16.7,5.7,31.4l-0.4,4.4l-55.6,0c0.3,24.2,5.4,31,23.7,31
+						  c12.2,0,18.5-1.6,26-3.7l1.9,9.9c-6.8,2.2-14.8,4.3-27.8,4.3c-30.1,0-38.3-11.6-38.3-45.4c0-31.3,11.8-41.8,38.3-41.8
+						  C674.5,492.3,683.6,495.2,689.3,502.1z M638.9,530.2h44.4c0.7-9.8-0.7-16.5-3.7-20.6c-3.4-4.7-9.1-6.7-17-6.7
+						  C646.7,502.9,639.6,509,638.9,530.2z"/>
+					  </g>
+					</g>
+				  </g>
+				</g>
+			  </g>
+			</g>
+		  </g>
+	</symbol>
+	</svg>
+		
+
+<header class="bg-light header_7">
+
+	<!-- Header Menu 7 -->
+
+	<nav class="header_menu_7 pt-30 pb-30 mt-40">
+		<div class="container px-xl-0">
+			<div class="mw-570">
+				<div class="row align-items-center">
+					<div class="col-lg-6" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="750">
+						<div class="logo">Toni Menzel</div>
+					</div>
+					<div class="col-lg-6 text-right" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="1000">
+						Growing Developer Culture
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container px-xl-0 relative text-center text-md-left">
+		<img src="assets/tonit3.png" srcset="assets/tonit3.png" class="d-none d-md-block ml-700 h-full absolute header_7_bg" alt="" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="750" />
+		<div class="mw-570 pt-230 pb-165 inner">
+			<div class="mb-3 logo d-block d-xl-none logo_mobile">Toni Menzel - Growing Developer Culture</div>
+			<h4 data-aos-duration="500" data-aos="zoom-in" data-aos-delay="0">Hey CTOs, Tech Leads &amp; Domain Experts,</h4>
+			<h1 data-aos-duration="500" data-aos="zoom-in" data-aos-delay="0">Ich bin für euch da!</h1>
+			<div class="mt-20 mw-500 color-heading f-18 medium op-7 text-adaptive">
+				<span data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">		
+					Neue digitale Lösungen benötigen ein Umfeld, in dem Innovation passieren kann.
+					Ich unterstütze Unternehmen aktiv dabei, eine moderne Entwicklungskultur zu schaffen.
+				</span>
+				<span data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">			
+					Ich habe 18 Jahre Erfahrung in allen Projektphasen, Konzernprojekten und Startups. Durch die Vermittlung von klaren Konzepten wie Domain Driven Design und einer No-Bullshit-Talk Philosophie helfe ich euch dabei, eure Technologie-Kultur zu entwickeln.
+				</span>
+				<img src="assets/sign3.png" width="100%" />				
+			</div>
+			
+		</div>
+	</div>
+</header>
+
+<section class="pt-100 pb-100 bg-dark color-filter-dark-8 content_17">	
+	<style>
+		.content_17{background-image:url(assets/IMG_6280.jpeg);}
+		@media(-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+			.content_17{background-image:url(assets/IMG_6280.jpeg);}
+		}
+	</style>
+	<div class="container px-xl-0">
+		<div class="row justify-content-center">
+			<div class="col-xl-10">
+				<div class="row flex-md-row-reverse justify-content-md-end">
+					<div class="col-lg-4 col-md-6 bg-light radius20 pt-40 pb-40 px-40 mx-15 mx-sm-0 block_tip" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						<div class="text-center action-2 f-22 text-adaptive">
+								Stell dir vor es gäbe "Ramsay’s Kitchen Nightmares" für Software Development Teams. Ohne Kameras. Über einen Zeitraum von wenigen Monaten.
+						</div>
+					</div>
+					<div class="col-lg-1"></div>
+					<div class="col-lg-6 color-white mt-4 mt-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<h2 class="f-20 semibold">Welches Problem will ich lösen ?</h2>
+						<div class="mt-15 f-18 medium op-7 text-adaptive">
+							<p>
+								Softwareentwicklung in großen Konzernen war nie wirklich gut. 
+								Zu lange Entscheidungswege, abgestandene Infrastruktur, Veränderung als Endgegner.
+								Ich kann nicht alles ändern, kann aber Veränderung zum Thema machen.
+								Mit meinem technischen Background, offener Kommunikation und kreativem Mindset schaffen wir gemeinsam ein Ökosystem für moderne Softwareentwicklung.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Content 19 -->
+
+<section class="pt-105 pb-90 bg-light content_19">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11">
+
+				<h2 class="small text-left text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Meine Beratungsthemen</h2>
+				<p>&nbsp;</p>
+				<h2 class="small text-left text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">	<img src="assets/ssd5.png" width="100%"/>	</h2>
+				<p>&nbsp;</p>
+
+				<h2 class="small text-left text-lg-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Beispiele: Wie ich euch unterstützen kann</h2>
+
+				<div class="row justify-content-center justify-content-lg-between">
+					
+										<div class="col-lg-6 mt-45 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						<div class="f-heading medium f-18 title">Rolle: Lead Developer</div>
+						<div class="mt-10 color-heading text-adaptive">
+								<p>
+										<b>Szenario: </b>Du bist verantwortlich für ein Entwicklungsteam, dass sich mit Themen wie Test-Driven-Development, Testautomatisierung oder agilem Mindset generell schwer tut.
+									</p>
+									<p>
+										<b>Vorschlag: </b>Als Lead-Developer arbeite ich im Team als lebendes Beispiel, das man beobachte, hinterfragen, diskutieren und herausfordern kann.
+										Ganz nebenbei entwickeln wir natürlich Features. Cool, oder?	
+									</p>
+							
+						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						<div class="f-heading medium f-18 title">Rolle: Cloud Native Coach</div>
+						<div class="mt-10 color-heading text-adaptive">
+							<p>
+								<b>Szenario: </b>Du bist im Legacy Entwicklungsmodus gefangen. Halbjährliche Releases, die Testabteilung braucht Wochen, Testsysteme sind rar. Jeder Fehler ist teuer.
+							</p>
+							<p>
+								<b>Vorschlag: </b>Lass uns - gerne auf der grünen Wiese - mal Anfangen: Ihr bekommt eine für euch erstellte moderne Cloud Native Entwicklungspipeline auf Basis von Technolgien wie (Achtung Buzzword Attacke) Kubernetes, Knative, JenkinsX, Gradle auf Google Cloud oder AWS. 
+								Auf dieser Basis lernen wir gemeinsam und schauen, wie wir eure IT-Landschaft modernisieren können.
+							</p>
+						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						<div class="f-heading medium f-18 title">Rolle: Developer Productivity Engineer</div>
+						<div class="mt-10 color-heading text-adaptive">
+								<p>
+										<b>Szenario: </b>Es dauert Wochen oder Monate, bis neue Team Mitglieder produktiv arbeiten können. Ihr habt Features oder Produkte, die fest an bestimmten Entwicklern "kleben". Der sogenannte Bus-Faktor ist sehr klein.
+									</p>
+									<p>
+										<b>Vorschlag: </b>Ich denke hier gerne an eine "IT für die IT" - das heisst für mich konkret: Hohe (Test-) Automatisierung, Infrastructure as Code, Organic Teans. Für euch heisst das: Ihr bekommt mehr Zeit für Businessfunktionalität, qualitativ bessere Software und besseres Team-Klima durch weniger "Ivory-Towers".	
+									</p>
+						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						<div class="f-heading medium f-18 title">Rolle: Kill the (distributed) Monolith</div>
+						<div class="mt-10 color-heading text-adaptive">
+								<p>
+										<b>Szenario A: </b>Ihr habt einen echten Monolithen geschaffen. Unabsichtlich, aber es ist so: ein unbewegliches Stück Software ohne Struktur. Jede Änderung könnte fatale Folgen haben. You created a MONSTER!
+										<BR/>
+										<b>Szenario B: </b>Ihr habt einen sogenannte "distributed monolith" geschaffen. 
+										Unabsichtlich, aber es ist so: Microservices, die untereinander ungewünschte Abhängigkeiten haben, Update-Kaskaden lassen die Vorteile von einer solchen Architektur schnell ins Gegenteil umschlagen. You created a MONSTER, too!
+									</p>
+									<p>
+										<b>Vorschlag: </b>Okay, um ein Monster zu besiegen bekämpft man es am besten mit einem anderen Monster. 
+										Zumindest ist das die Einstellung vieler, die von vorhergehenden OSGi Projekten gehört haben. 
+										Lasst uns gemeinsam den (verteilten-) Monolithen erlegen und über Bounded Context, Serverless, Modular Modulith und andere Dinge reden.
+											
+									</p>
+						</div>
+					</div>
+					
+									</div>
+
+
+			</div>
+		</div>
+	</div>
 </section>
 
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+<section class="pt-100 pb-95 bg-light showcase_10">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center align-items-center align-items-lg-end text-center">
+				<div class="col-md-8 col-sm-7 text-sm-left" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="small">Referenzen</h2>
+				</div>
+				<div class="col-md-4 col-sm-5 text-sm-right" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<span class="mt-20 mt-sm-0 btn size50 border-gray color-main">Auswahl einiger Projekte</span>
+				</div>
+			</div>
+			<div class="mt-40 row align-items-stretch">
+				<div class="mb-30 col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+				
+					<div class="h-full radius10 pt-55 pb-50 with_border">
+							<div class="row justify-content-center">
+								<div class="col-xl-9 col-10">
+									<div class="mb-15 f-22 title">Initiative D21 e.V.</div>
+									<div class="text-adaptive">
+											<p>Seit 2019 aktives Mitglied und Teilnehmer an verschiedenen Arbeitsgruppen der Digitalen Gesellschaft.</p>
+											<b>Themen bisher u.a.</b>
+											<ul>
+												<li>Leitlinien zum Algorithmen Monitoring</li>
+												<li>AG Digitale Ethik</li>
+											</ul>
+											<b>Mein Fazit</b>
+											<p>
+												Die Mitarbeit in der Digitalen Gesellschaft D21 e.V. war in diesem Jahr für mich eine komplett positive Erfahrung: diverses Teilnehmerfeld, tolle Diskussionen und ein erweitertes Weltbild.
+											</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="mb-30 col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<div class="h-full radius10 pt-55 pb-50 with_border">
+						<div class="row justify-content-center">
+							<div class="col-xl-9 col-10">
+								<div class="mb-15 f-22 title">Deutsche Bank AG</div>
+								<div class="text-adaptive">
+										<p>Integration von Cloud Infrastruktur und proprietärem Konzernbackend. Verantwortlich für Koordination zwischen Teams.</p>
+										<b>Besondere Platformen (mehrere Projekte)</b>
+										<ul>
+											<li>Kubernetes &amp; Redhat OpenShift</li>
+											<li>Apache Cassandra</li>
+											<li>SWIFT Network</li>
+											<li>Enterprise Architect</li>
+										</ul>
+										
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mb-30 mb-md-0 col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<div class="h-full radius10 pt-55 pb-50 with_border">
+								<div class="row justify-content-center">
+									<div class="col-xl-9 col-10">
+										<div class="mb-15 f-22 title">MOIA (Ridesharing by Volkswagen)</div>
+										<div class="text-adaptive">
+												<p>Integration von Cloud Infrastruktur und proprietärem Konzernbackend. Verantwortlich für Koordination zwischen Teams.</p>
+												<b>Besondere Platformen & Frameworks</b>
+												<ul>
+													<li>Amazon Webservices (AWS)</li>
+													<li>Java & Kotlin</li>
+													<li>Gradle</li>
+												</ul>
+												<b>Mein Fazit</b>
+												<p>
+													MOIA zählt zu den Unternehmen, von denen ich persönlich wahrscheinlich mehr gelernt habe als andersherum. In vielen Teilen kann MOIA ein Zielbild für zukünftige Projekte sein. 
+												</p>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+				
+				<style>
+					#showcase_10_block_4{
+						background-image: url(i/showcase_10_img.jpg);
+						background-position: 50% 50%;
+						background-size:cover;
+					}
+					@media(-webkit-min-device-pixel-ratio: 1.25), not all, (min-resolution: 120dpi){
+						#showcase_10_block_4{
+							background-image:url(i/showcase_10_img@2x.jpg);
+						}
+					}
+				</style>
+				<div class="col-md-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<div class="h-full radius10 pt-55 pb-50" >
+						<div class="row justify-content-center">
+							<div class="col-xl-9 col-10">
+								<div class="mb-15 f-22 title">Weitere Klienten</div>
+								<div class="text-adaptive">
+									u.a.	
+									<ul>
+											<li>Morgan Stanley Bank (London)</li>
+											<li>Concardis (Köln)</li>
+											<li>Daimler AG (Stuttgart)</li>
+											<li>Volkswagen AG (Wolfsburg)</li>
+											<li>Spicter AG (Zug)</li>
+											<li>Bundesdruckerei (Berlin)</li>
+
+										</ul>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+<!-- Footer 8 -->
+
+<footer class="pt-45 pb-45 bg-dark color-white text-center footer_8">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-3 text-xl-left" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<a href="#" class="logo link color-white">						<svg height="100"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rebaze"></use></svg>
+					</a>
+				</div>
+				<div class="mt-10 mb-10 my-xl-0 col-xl-6 lh-40" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+					<a href="mailto:toni.menzel@rebaze.com" class="f-14 text-uppercase sp-20 link color-white mr-15">toni.menzel@rebaze.com</a>
+					<a href="#" class="f-14 text-uppercase sp-20 link color-white mx-15">+49 171 6520284</a>
+					<a href="#" class="f-14 text-uppercase sp-20 link color-white ml-15">Hannover</a>
+				</div>
+				<div class="col-lg-3 text-xl-right socials" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+					<a href="https://twitter.com/tonit" class="mr-15 w-40 btn sm border-transparent-white px-0"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/tonit/" class="mx-15 w-40 btn sm border-transparent-white px-0"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+<!-- Contact 9 -->
+<!--
+<section class="pt-95 pb-80 bg-dark relative color-white text-center contact_9">
+		
+		<div class="absolute w-full h-full map_overlay"></div>
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-7 col-md-8">
+					<div class="f-24 bold action-3" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Startup 3</div>
+					<div class="mt-20 mb-80 f-22 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						A high-quality solution for those who want a 
+						beautiful startup website quickly.				</div>
+					<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">E-mail</div>
+						<a href="mailto:info@designmodo.com" class="mb-60 f-42 bold link color-white text_big">info@designmodo.com</a>
+					</div>
+					<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<div class="mb-10 f-14 semibold text-uppercase sp-20 title">Phone</div>
+						<a href="tel:+15555055050" class="mb-60 f-42 bold link color-white text_big">+1 555 505 5050</a>
+					</div>
+					<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<div class="mb-20 f-14 semibold text-uppercase sp-20 title">Socials</div>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-facebook-square"></i></a>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-behance"></i></a>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-pinterest"></i></a>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-dribbble"></i></a>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-twitter"></i></a>
+						<a href="#" target="_blank" class="mb-20 f-26 link color-white mx-20"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section class="pt-85 pb-90 bg-light content_33">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center">
+			<div class="col-xl-10">
+				<h2 class="mb-10 small text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">What's Inside?</h2>
+				<div class="table-responsive-shadow">
+					<div class="table-responsive-xl">
+						<table class="table table-borderless table-striped m-0 w-970">
+														<thead>
+								<tr class="color-heading f-14 text-uppercase sp-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="150">
+																		<th scope="col" class="semibold">Features</th>
+																		<th scope="col" class="semibold"></th>
+																		<th scope="col" class="semibold">Free</th>
+																		<th scope="col" class="semibold">Pro</th>
+																	</tr>
+							</thead>
+														<tbody>
+																<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+																		<td>Add Files</td>
+																		<td class="color-heading">Add anything from photos to spreadsheets</td>
+																		<td>5 Mb per File</td>
+																		<td>Unlimited</td>
+																	</tr>
+																<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
+																		<td>Assign To-dos</td>
+																		<td class="color-heading">Delegate responsibilities like a boss</td>
+																		<td>25 Assigns per List</td>
+																		<td>Unlimited</td>
+																	</tr>
+																<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+																		<td>Subtasks</td>
+																		<td class="color-heading">Break down large goals into acionable to-dos</td>
+																		<td>25 per To-do</td>
+																		<td>Unlimited</td>
+																	</tr>
+																<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="750">
+																		<td>Backgrounds</td>
+																		<td class="color-heading">Personalize your Wunderlist just the way you like</td>
+																		<td>20 Backgrounds</td>
+																		<td>30 Backgrounds</td>
+																	</tr>
+																<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+																		<td>Team</td>
+																		<td class="color-heading">Make best team in the world</td>
+																		<td>10 Members</td>
+																		<td>Unlimited</td>
+																	</tr>
+															</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bg-light text-center text-lg-left call_to_action_23">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center justify-content-lg-between">
+			<div class="col-xl-7 col-lg-6 col-md-6 col-sm-8 col-10 d-lg-flex justify-content-end" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+				<div class="d-lg-inline-block relative">
+					<img src="i/call_to_action_23_img.jpg" srcset="i/call_to_action_23_img@2x.jpg 2x" class="h-full img" alt="" />
+					<a href="https://www.youtube.com/embed/RcTFVcoibI0?rel=0&showinfo=0" target="_blank" data-fancybox="call_to_action_23_fancybox" class="play red"><i class="fas fa-play"></i></a>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-5 col-md-7 col-sm-10">
+				<div class="pt-105 pb-100 inner">
+					<h2 class="small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Better design for your content</h2>
+					<div class="mt-25 mb-50 f-22 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+						Get a fully retina ready site when 
+						you build with Startup Framework. 
+						Websites look sharper and more 
+						gorgeous on devices with retina 
+						display support.					</div>
+					<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+						<a href="#" class="btn border-gray color-main">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="pt-95 pb-85 bg-dark color-white content_16">
+	<div class="container px-xl-0">
+		<div class="row align-items-center">
+			<div class="col-lg-1"></div>
+			<div class="col-xl-4 col-md-3" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+					<svg height="200"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rebaze_logo"></use></svg>
+			</div>
+			<div class="col-xl-7 col-lg-8 col-md-9 mt-4 mt-md-0">
+				<h2 class="pl-15 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">Und was ist rebaze?</h2>
+				<div class="mt-15 pl-15 f-18 medium op-7 text-adaptive">
+					<span data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">					
+					With Startup Framework, we don't make you start from an empty slate. 
+					All you have to do is to pick the elements you like best and combine 
+					them together and we guarantee that it will look fantastic.					</span>					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="pt-85 pb-80 bg-light content_34 bg-light pt-85 pb-80">
+	<div class="container px-xl-0">
+		<div class="row">
+			<div class="col-xl-1"></div>
+			<div class="col-lg-8">
+				<h2 class="mb-35 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">How We Did It</h2>
+				<div class="px-30 pt-30 pb-30 radius10" id="copy_from_me" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300"><pre class="m-0 f-16 lh-22">&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+    &lt;title&gt;Startup Framework&lt;/title&gt;
+    &lt;link rel="stylesheet" type="text/css" href="style/style.css" /&gt;
+    &lt;link rel="alternate" type="application/rss+xml" title="Startup Framework" href="/rss.xml" /&gt;
+    &lt;link rel="search" type="application/opensearchdescription+xml" title="Search" href="/sites/search/search.xml"  /&gt;
+    &lt;link rel="shortcut icon" href="/favicon.ico" /&gt;
+&lt;/head&gt;</pre>
+				</div>
+				<div class="d-lg-flex justify-content-end" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+					<button class="mt-20 btn sm border-gray color-main js-copy-btn">Copy</button>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+				<div class="mt-110 mw-270 px-25 right">
+					<div class="f-14 semibold text-uppercase sp-20"><i class="far fa-file-code f-18 mr-20"></i>Great Code</div>
+					<div class="mt-15 color-heading text-adaptive">You’ll get a description <br />of each component and learn how to connect <br />and use them.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="pt-105 pb-90 bg-light content_19">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11">
+				<h2 class="small text-left text-lg-center" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="0">Your questions answered</h2>
+				<div class="row justify-content-center justify-content-lg-between">
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">How Startup Framework works?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							The Generator App is an online tool that helps you to 
+							export ready-made templates ready to work as your 
+							future website. It helps you to combine slides, panels and 
+							other components and export it as a set of static files: 
+							HTML/CSS/JS.						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">Do you provide hosting with Startup Framework?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							No, hosting is on you. You upload the result on your hosting 
+							via FTP or using other tools you like. You can use any server, 
+							just make sure it have a PHP installed in case if you need a 
+							contact form.						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">What exactly am I buying?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							You're buying an access to the Startup Generator app to 
+							export ready-made templates with the rest source files 
+							included. It's an online tool, not a software. For more details 
+							about generator’s workflow watch this tutorial.						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">Are you planning to update Startup Framework?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							We are! Here is the changelog of changes we’ve made 
+							after the release. Thanks our clients who helped us to 
+							improve our product.						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">How Startup Framework works?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							The Generator App is an online tool that helps you to 
+							export ready-made templates ready to work as your 
+							future website. It helps you to combine slides, panels and 
+							other components and export it as a set of static files: 
+							HTML/CSS/JS.						</div>
+					</div>
+										<div class="col-lg-6 mt-45 block" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<div class="f-heading medium f-18 title">Do you provide support for customers?</div>
+						<div class="mt-10 color-heading text-adaptive">
+							Yes, we are. Please use our contact us form to chat with us. 
+							We DO NOT provide product support via Facebook, Twitter 
+							or others sources.						</div>
+					</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="pt-80 pb-45 bg-light content_29">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center text-center">
+			<div class="col-lg-8">
+				<div class="row align-items-center justify-content-center no-gutters">
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="0">
+						<img src="i/content_29_logo_1.png" srcset="i/content_29_logo_1@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="150">
+						<img src="i/content_29_logo_2.png" srcset="i/content_29_logo_2@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="250">
+						<img src="i/content_29_logo_3.png" srcset="i/content_29_logo_3@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="400">
+						<img src="i/content_29_logo_4.png" srcset="i/content_29_logo_4@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="500">
+						<img src="i/content_29_logo_5.png" srcset="i/content_29_logo_5@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="650">
+						<img src="i/content_29_logo_6.png" srcset="i/content_29_logo_6@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+										<div class="col-sm-3 col-6 mb-35 holder" data-aos-duration="500" data-aos="zoom-in" data-aos-delay="750">
+						<img src="i/content_29_logo_7.png" srcset="i/content_29_logo_7@2x.png 2x" class="img-fluid" alt="" />
+					</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="pt-85 pb-90 bg-light content_33">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<div class="col-xl-10">
+					<h2 class="mb-10 small text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">What's Inside?</h2>
+					<div class="table-responsive-shadow">
+						<div class="table-responsive-xl">
+							<table class="table table-borderless table-striped m-0 w-970">
+															<thead>
+									<tr class="color-heading f-14 text-uppercase sp-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="150">
+																			<th scope="col" class="semibold">Features</th>
+																			<th scope="col" class="semibold"></th>
+																			<th scope="col" class="semibold">Free</th>
+																			<th scope="col" class="semibold">Pro</th>
+																		</tr>
+								</thead>
+															<tbody>
+																	<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+																			<td>Add Files</td>
+																			<td class="color-heading">Add anything from photos to spreadsheets</td>
+																			<td>5 Mb per File</td>
+																			<td>Unlimited</td>
+																		</tr>
+																	<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
+																			<td>Assign To-dos</td>
+																			<td class="color-heading">Delegate responsibilities like a boss</td>
+																			<td>25 Assigns per List</td>
+																			<td>Unlimited</td>
+																		</tr>
+																	<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+																			<td>Subtasks</td>
+																			<td class="color-heading">Break down large goals into acionable to-dos</td>
+																			<td>25 per To-do</td>
+																			<td>Unlimited</td>
+																		</tr>
+																	<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="750">
+																			<td>Backgrounds</td>
+																			<td class="color-heading">Personalize your Wunderlist just the way you like</td>
+																			<td>20 Backgrounds</td>
+																			<td>30 Backgrounds</td>
+																		</tr>
+																	<tr data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
+																			<td>Team</td>
+																			<td class="color-heading">Make best team in the world</td>
+																			<td>10 Members</td>
+																			<td>Unlimited</td>
+																		</tr>
+																</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<section class="pt-85 pb-80 bg-light content_34 bg-light pt-85 pb-80">
+	<div class="container px-xl-0">
+		<div class="row">
+			<div class="col-xl-1"></div>
+			<div class="col-lg-8">
+				<h2 class="mb-35 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">How We Did It</h2>
+				<div class="px-30 pt-30 pb-30 radius10" id="copy_from_me" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300"><pre class="m-0 f-16 lh-22">&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+    &lt;title&gt;Startup Framework&lt;/title&gt;
+    &lt;link rel="stylesheet" type="text/css" href="style/style.css" /&gt;
+    &lt;link rel="alternate" type="application/rss+xml" title="Startup Framework" href="/rss.xml" /&gt;
+    &lt;link rel="search" type="application/opensearchdescription+xml" title="Search" href="/sites/search/search.xml"  /&gt;
+    &lt;link rel="shortcut icon" href="/favicon.ico" /&gt;
+&lt;/head&gt;</pre>
+				</div>
+				<div class="d-lg-flex justify-content-end" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+					<button class="mt-20 btn sm border-gray color-main js-copy-btn">Copy</button>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+				<div class="mt-110 mw-270 px-25 right">
+					<div class="f-14 semibold text-uppercase sp-20"><i class="far fa-file-code f-18 mr-20"></i>Great Code</div>
+					<div class="mt-15 color-heading text-adaptive">You’ll get a description <br />of each component and learn how to connect <br />and use them.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+<!-- forms alerts -->
+<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	Thanks for your message!
+</div>
+<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	Please, fill in required fields.
+</div>
+<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	An error occurred while sending data :(
+</div>
+
+<!-- Bootstrap 4.3.1 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- Google maps JS API -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+<script src="js/jquery.maskedinput.min.js"></script>
+<!-- Startup 3 JS (Custom js for all blocks) -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
